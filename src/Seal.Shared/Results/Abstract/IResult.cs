@@ -14,4 +14,19 @@ public interface IResult
     /// 是否失败
     /// </summary>
     public bool IsFailed { get; }
+
+
+    /// <summary>
+    /// 
+    /// </summary>
+    public Error Error { get; }
+
+
+    public bool HasValue();
+
+    public object GetValue();
+
+
+
+
 }
