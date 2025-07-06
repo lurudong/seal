@@ -1,6 +1,7 @@
 ﻿
 using Seal.Shared.Results;
 
+namespace Seal.Example.Console.Model;
 public record class User
 {
     private User()
@@ -28,12 +29,13 @@ public record class User
         if (id <= 0)
         {
 
-            return Result<User>.Failure(new Error("01111", "Id不能小于0"));
+            return Result.Failure(new Error("01111", "Id不能小于0"));
+            //return Result<User>.Failure(new Error("01111", "Id不能小于0"));
         }
 
         if (string.IsNullOrWhiteSpace(name))
         {
-            return Result<User>.Success(default!);
+            return Result<User>.Failure("名字不能为空");
         }
         return new User(id, name, phone) { Dscription = "海豹" };
     }
