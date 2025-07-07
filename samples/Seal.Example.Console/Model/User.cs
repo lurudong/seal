@@ -35,6 +35,7 @@ public record class User
 
         if (string.IsNullOrWhiteSpace(name))
         {
+
             return Result<User>.Failure("名字不能为空");
         }
         return new User(id, name, phone) { Dscription = "海豹" };

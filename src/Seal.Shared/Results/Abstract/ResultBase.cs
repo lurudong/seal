@@ -1,8 +1,9 @@
-﻿
-namespace Seal.Shared.Results.Abstract;
+﻿namespace Seal.Shared.Results.Abstract;
 
 public abstract class ResultBase
 {
+
+
 
     /// <summary>
     /// 是否成功
@@ -11,9 +12,10 @@ public abstract class ResultBase
 
 
     /// <summary>
-    /// 错误
+    /// 错误类型
     /// </summary>
     public virtual Error Error { get; protected set; } = Error.Empty;
+
 
     /// <summary>
     /// 成功消息
