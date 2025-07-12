@@ -1,7 +1,11 @@
 # Seal
 ## .net core framework
 
+![logo](images/logo.png)
+
 Seal是一个用于处理结果和错误处理的.NET Core框架。它提供了一种简单而强大的方式来处理应用程序中的成功和失败结果。
+
+
 
 ## 功能
 - 处理成功和失败结果
