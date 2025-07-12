@@ -6,13 +6,13 @@
 /// <typeparam name="TValue">与结果关联的值。</typeparam>
 public partial class Result<TValue> : ResultBase, IResult
 {
-
+#pragma warning disable CS8618
     /// <summary>
     /// 初始化 <see cref="Result{T}"/> 类的新实例。
     /// </summary>
 
     protected Result() { }
-
+#pragma warning restore CS8618
     /// <summary>
     /// 初始化 <see cref="Result{T}"/> 类的新实例。
     /// </summary>
@@ -26,11 +26,13 @@ public partial class Result<TValue> : ResultBase, IResult
     /// <param name="successMessage">成功消息</param>
     protected internal Result(TValue value, string successMessage) : this(value) => SuccessMessage = successMessage;
 
+#pragma warning disable CS8618
     /// <summary>
     /// 初始化 <see cref="Result{T}"/> 类的新实例。
     /// </summary>
     /// <param name="isSuccess">是否成功</param>
     protected Result(bool isSuccess) => IsSuccess = isSuccess;
+#pragma warning restore CS8618
 
     /// <summary>
     /// 获取与结果关联的数据。
@@ -40,7 +42,6 @@ public partial class Result<TValue> : ResultBase, IResult
     /// 其默认值为 <c>null</c>。
     /// </value>
     public TValue Value { get; protected set; } = default!;
-
 
 
     /// <summary>

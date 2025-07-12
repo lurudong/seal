@@ -12,5 +12,5 @@ var result1 = Result<int>.Success(5);
 var result2 = Result.Failure(new Error("0001", "失败"));
 var result3 = Result.Success(5, "这里输入是5");
 var result4 = Result<int>.Failure(new Error("0002", "失败"));
-
+Console.WriteLine(result1.Value);
 Console.ReadLine();
