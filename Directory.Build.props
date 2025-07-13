@@ -17,7 +17,10 @@
         
         <!-- 生成时是否自动生成包 -->
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-       
+
+        <RepositoryUrl>https://github.com/lurudong/seal</RepositoryUrl>
+
+        <Authors>YunZheng</Authors>
     </PropertyGroup>
 
 </Project>

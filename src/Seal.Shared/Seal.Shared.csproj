@@ -1,4 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+            <PackageId>Seal.Shared</PackageId>
+    </PropertyGroup>
   <ItemGroup>
     <Content Include="logo.ico" Pack="true" Visible="false" PackagePath=""  />
   </ItemGroup>
