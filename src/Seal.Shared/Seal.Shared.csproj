@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <PackageId>Seal.Shared</PackageId>
-        <PackageIcon>icon.png</PackageIcon>
+        <PackageIcon>logo.png</PackageIcon>
         <Authors>云峥</Authors>
         <Company>云峥传媒</Company>
         <PackageProjectUrl>https://github.com/lurudong/seal</PackageProjectUrl>
