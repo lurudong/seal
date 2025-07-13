@@ -1,11 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-            <PackageId>Seal.Shared</PackageId>
+        <PackageId>Seal.Shared</PackageId>
+        <PackageIcon>icon.ico</PackageIcon>
+        <ApplicationIcon>logo.ico</ApplicationIcon>
     </PropertyGroup>
-  <ItemGroup>
-    <Content Include="logo.ico" Pack="true" Visible="false" PackagePath="" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Properties\" />
-  </ItemGroup>
+    <ItemGroup>
+        <Content Include="logo.ico" Pack="true" Visible="false" PackagePath="" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="Properties\" />
+    </ItemGroup>
 </Project>

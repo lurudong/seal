@@ -1,7 +1,7 @@
 # Seal
 ## .net core framework
 
-![logo](images/logo.png)
+![logo](images/logo.ico)
 
 Seal��һ�����ڴ�������ʹ�������.NET Core��ܡ����ṩ��һ�ּ򵥶�ǿ��ķ�ʽ������Ӧ�ó����еĳɹ���ʧ�ܽ����
 
