@@ -1,18 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <PackageId>Seal.Shared</PackageId>
-        <PackageIcon>logo.png</PackageIcon>
-        <Authors>云峥</Authors>
-        <Company>云峥传媒</Company>
-        <PackageProjectUrl>https://github.com/lurudong/seal</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/lurudong/seal</RepositoryUrl>
-        <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <!--发布仓库地址-->
-        <PublishRepositoryUrl>true</PublishRepositoryUrl>
-        <!--嵌入未跟踪的来源-->
-        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <!--<PackageIcon>$(SolutionDir)images\logo_128x128_transparent.png</PackageIcon>-->
     </PropertyGroup>
-    <ItemGroup>
-        <None Include="logo.png" Pack="true" Visible="false" PackagePath="" />
-    </ItemGroup>
+    <!--<ItemGroup>
+        <None Include="$(SolutionDir)images\logo_128x128_transparent.png" Pack="true" Visible="false" PackagePath="" />
+    </ItemGroup>-->
 </Project>

@@ -1,5 +1,9 @@
 <Project>
-	<PropertyGroup>
+    <PropertyGroup>
+        <!-- 设置 SolutionDir 属性为解决方案文件的绝对路径 -->
+        <SolutionDir>$(MSBuildThisFileDirectory)</SolutionDir>
+    </PropertyGroup>
+    <PropertyGroup>
         <!-- 默认目标框架 -->
         <TargetFramework>net9.0</TargetFramework>
         <!-- 启用可空引用类型 -->
@@ -21,6 +25,25 @@
         <RepositoryUrl>https://github.com/lurudong/seal</RepositoryUrl>
 
         <Authors>YunZheng</Authors>
-    </PropertyGroup>
+        <PackageIcon>logo_128x128_transparent.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
 
+        <Authors>云峥</Authors>
+        <Company>云峥传媒</Company>
+        <PackageProjectUrl>https://github.com/lurudong/seal</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/lurudong/seal</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <!--发布仓库地址-->
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <!--嵌入未跟踪的来源-->
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    </PropertyGroup>
+    <!-- Nuget的Icon文件 -->
+    <ItemGroup>
+        <None Include="$(SolutionDir)images\logo_128x128_transparent.png" Pack="true" Visible="false" PackagePath="" />
+    </ItemGroup>
+    <!-- Nuget的自述文件 -->
+    <ItemGroup>
+        <None Include="$(SolutionDir)README.md" Pack="true" Visible="false" PackagePath="" />
+    </ItemGroup>
 </Project>
