@@ -15,6 +15,7 @@
 
         <!-- 版本码 -->
         <Version>1.0.2</Version>
+        <VersionSuffix></VersionSuffix>
 
         <!-- 生成包 -->
         <isPackable>true</isPackable>
