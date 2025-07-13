@@ -20,5 +20,5 @@ jobs:
       run: dotnet build -c Release --no-restore
     - name: Pack NuGet
       run: dotnet pack -c Release --version-suffix preview.1.`date +%y%m%d%H%M` -o ./  -p:IncludeSymbols=true -p:SymbolPackageFormat=snupkg
-    - name: Push MyGet
+    - name: Push NuGet
       run: dotnet nuget push '*.nupkg' -s https://api.nuget.org/v3/index.json -k ${{ secrets.NUGET_KEY }} --skip-duplicate
