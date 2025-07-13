@@ -13,6 +13,6 @@
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
     </PropertyGroup>
     <ItemGroup>
-        <Folder Include="Properties\" />
+        <None Include="logo.png" Pack="true" Visible="false" PackagePath="" />
     </ItemGroup>
 </Project>
