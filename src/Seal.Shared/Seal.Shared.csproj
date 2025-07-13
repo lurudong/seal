@@ -3,6 +3,9 @@
             <PackageId>Seal.Shared</PackageId>
     </PropertyGroup>
   <ItemGroup>
-    <Content Include="logo.ico" Pack="true" Visible="false" PackagePath=""  />
+    <Content Include="logo.ico" Pack="true" Visible="false" PackagePath="" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
   </ItemGroup>
 </Project>
