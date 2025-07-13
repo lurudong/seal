@@ -14,7 +14,7 @@
         <LangVersion>latest</LangVersion>
 
         <!-- 版本码 -->
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
 
         <!-- 生成包 -->
         <isPackable>true</isPackable>
