@@ -1,0 +1,23 @@
+<Project>
+	<PropertyGroup>
+        <!-- 默认目标框架 -->
+        <TargetFramework>net9.0</TargetFramework>
+        <!-- 启用可空引用类型 -->
+        <Nullable>enable</Nullable>
+        <!-- 隐式引用 -->
+        <ImplicitUsings>enable</ImplicitUsings>
+        <!-- 默认语言 -->
+        <LangVersion>latest</LangVersion>
+
+        <!-- 版本码 -->
+        <Version>1.0.0</Version>
+
+        <!-- 生成包 -->
+        <isPackable>true</isPackable>
+        
+        <!-- 生成时是否自动生成包 -->
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+       
+    </PropertyGroup>
+
+</Project>
