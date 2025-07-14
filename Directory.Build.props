@@ -15,7 +15,7 @@
 
         <!-- 版本码 -->
         <Version>1.0.3</Version>
-        <VersionSuffix></VersionSuffix>
+        <VersionSuffix>1.0.3</VersionSuffix>
 
         <!-- 生成包 -->
         <isPackable>true</isPackable>
@@ -26,7 +26,7 @@
         <RepositoryUrl>https://github.com/lurudong/seal</RepositoryUrl>
 
         <Authors>YunZheng</Authors>
-        <PackageIcon>logo_128x128_transparent.png</PackageIcon>
+        <PackageIcon>images\logo_128x128_transparent.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
 
         <Authors>云峥</Authors>
@@ -41,10 +41,8 @@
     </PropertyGroup>
     <!-- Nuget的Icon文件 -->
     <ItemGroup>
-        <None Include="$(SolutionDir)images\logo_128x128_transparent.png" Pack="true" Visible="false" PackagePath="" />
-    </ItemGroup>
-    <!-- Nuget的自述文件 -->
-    <ItemGroup>
+        <None Include="$(SolutionDir)images\**\*.*" Pack="true" Visible="false" PackagePath="images" />
         <None Include="$(SolutionDir)README.md" Pack="true" Visible="false" PackagePath="" />
     </ItemGroup>
+
 </Project>
